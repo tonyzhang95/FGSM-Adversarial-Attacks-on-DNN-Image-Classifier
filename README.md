@@ -6,7 +6,7 @@ Train a Deep Neural Network image classifier on the MNIST dataset, then create a
 
 **Dataset**
 
- The MNIST dataset contains 28X28 grayscale images of hand-drawn digits from 0-9, along with the associated labels. See the sample Python code available here: https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb#scrollTo=h3IKyzTCDNGo
+ The MNIST dataset contains 28X28 grayscale images of hand-drawn digits from 0-9, along with the associated labels. See the sample Python code available [here](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb#scrollTo=h3IKyzTCDNGo)
 
 **Details**
 
@@ -17,3 +17,5 @@ Train a Deep Neural Network image classifier on the MNIST dataset, then create a
 **FGSM based targeted attacks:** FGSM based targeted attacks aiming for the next category of the labels (1->2, 3->4, etc).
 
 **Adversarial Retraining against Untargeted FGSM Attacks:** To defend against adversarial perturbations, we adversarially perturbs each image in the training set using FGSM based untargeted attacks. Then we retrain a new DNN with both original training set and the  adversarially perturbed images. 
+
+**See Colab Code [here](https://colab.research.google.com/drive/1Sh1MY9q4ut7h8sJyajggFz2J1J5Gt1WU?usp=sharing)**
